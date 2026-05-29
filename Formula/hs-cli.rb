@@ -1,28 +1,28 @@
 class HsCli < Formula
   desc "Hearthstone CLI for AI agents and humans — decode decks, look up cards, query metadata"
   homepage "https://github.com/say8425/hs-cli"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/say8425/hs-cli/releases/download/v0.4.0/hs-darwin-arm64"
-      sha256 "30002a94a19296bd7edc6bd19f743af379a50bb12918c256561836d423800cad"
+      url "https://github.com/say8425/hs-cli/releases/download/v0.4.1/hs-darwin-arm64"
+      sha256 "3e1bf202e7c2f4f07393793c2e1acc747785ba196c161c29c8a50459a832d726"
     end
     on_intel do
-      url "https://github.com/say8425/hs-cli/releases/download/v0.4.0/hs-darwin-x64"
-      sha256 "b04f3910e1da017ceddd79cfbe722a111acc30474d3c5f23297f3a7aba63cbe5"
+      url "https://github.com/say8425/hs-cli/releases/download/v0.4.1/hs-darwin-x64"
+      sha256 "b9b8b62ec3ea243c46940fd3cd3c958d4df823297d660e0b945bfa43d2820e1f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/say8425/hs-cli/releases/download/v0.4.0/hs-linux-arm64"
-      sha256 "dd836e3756688518c44a2f6f09fa38686baad3fb15ea69369376c78adea02820"
+      url "https://github.com/say8425/hs-cli/releases/download/v0.4.1/hs-linux-arm64"
+      sha256 "eb39eaea113aab7a4e7f270b74875ccb6f1928f3aeee34fdfc5dc9989c56365d"
     end
     on_intel do
-      url "https://github.com/say8425/hs-cli/releases/download/v0.4.0/hs-linux-x64"
-      sha256 "973a53a2696aeb0b15166f1cdee66cec28bbd2db0dcd6eb8e08183a2f2bf8140"
+      url "https://github.com/say8425/hs-cli/releases/download/v0.4.1/hs-linux-x64"
+      sha256 "6676d9972546aee9b76b73e659524f60ddf1b93379487119f578a6f2d7c56fb6"
     end
   end
 
